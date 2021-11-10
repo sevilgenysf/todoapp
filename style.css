@@ -11,3 +11,9 @@ body {
 .delete {
   cursor: pointer;
 }
+
+form .newAdd {
+  color: #242424;
+  font-size: 25px;
+  font-weight: 600;
+}
