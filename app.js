@@ -14,10 +14,7 @@ function tamplateOlustur(yapilacak){
 form.addEventListener('submit',(e)=>{
   e.preventDefault();
   const yapilacak= form.add.value.trim();
-  if(yapilacak.lenght){
-    templateOlustur(yapilacak);
-    form.reset();
-  }
+  tamplateOlustur(yapilacak);
 });
 
 liste.addEventListener('click', (e)=> {
